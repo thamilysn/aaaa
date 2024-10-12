@@ -7,8 +7,8 @@
 
 body {
     background-size: cover;
-    background-image: url(../Thamily-main/fotos/Captura\ de\ tela\ 2024-10-07\ 223002.jpg);
-    padding: 10px;
+    background-image: url(Fotos/Capa\ Qualificações.jpg);
+        padding: 10px;
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,7 +87,7 @@ ul {
 .qualificações {
     color: white;
     max-width: 1000px;
-    margin: 70px auto;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -103,7 +103,8 @@ ul {
 .continuação-qualificações,
 .perfil-instagram,
 .titulo-semana-sct,
-.colaboracao-sevida {
+.colaboracao-sevida,
+.medalha-ONC {
     margin: 50px auto;
     font-size: 22px;
     line-height: 1.5;
@@ -111,7 +112,7 @@ ul {
     color: white;
 }
 
-.imagens, .imagens2, .imagens3 {
+.imagens, .imagens2, .imagens3, .imagens4 {
     display: flex;
     justify-content: center; 
     flex-wrap: wrap; 
@@ -119,15 +120,17 @@ ul {
     margin-bottom: 20px;
 }
 
-.imagens img, .imagens2 img, .imagens3 img {
-    width: 30%; 
+.imagens img, .imagens2 img, .imagens3 img, .imagens4 img {
+    width: 45%; 
     height: auto; 
     border-radius: 8px; 
 }
 
 .perfil-instagram::before,
+.continuação-qualificações::before,
 .titulo-semana-sct::before,
-.colaboracao-sevida::before {
+.colaboracao-sevida::before,
+.medalha-ONC::before {
     content: "●"; 
     color: white; 
     font-size: 20px; 
@@ -156,11 +159,12 @@ ul {
     .continuação-qualificações,
     .perfil-instagram,
     .titulo-semana-sct,
-    .colaboracao-sevida {
+    .colaboracao-sevida, 
+    .medalha-ONC {
         font-size: 22px; 
     }
 
-    .imagens img, .imagens2 img, .imagens3 img {
+    .imagens img, .imagens2 img, .imagens3 img, .imagens4 img {
         width: 100%; 
     }
 }
